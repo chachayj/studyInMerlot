@@ -1,6 +1,6 @@
 
 const assert = require('assert'); 
-const TheStoneGame = require('../TheStoneGame');
+const TheStoneGame = require('../src/TheStoneGame');
 console.log(TheStoneGame);
 
 import {describe} from 'mocha';
