@@ -5,10 +5,14 @@ class MakeOne {
         let count = 0;
 
         console.log("시작 : "+remain);
-        return this.recursive(remain, count);
+        return this._recursive(remain, count);
     }
 
-    recursive(remain, count){
+    display(resultCount){
+      console.log(`---------------- resultCount : ${resultCount} -------------`)
+    }
+
+    _recursive(remain, count){
         count++;
 
         if((remain - 1) % 3 == 0){
@@ -26,13 +30,11 @@ class MakeOne {
             return count;
         }
         
-        return this.recursive(remain, count);
+        return this._recursive(remain, count);
         
     }
 
-    display(resultCount){
-        console.log(`---------------- resultCount : ${resultCount} -------------`)
-    }
+
     
     
 }
