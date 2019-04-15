@@ -11,12 +11,14 @@
     "test4": "./node_modules/.bin/mocha --require babel-core/register test/TheStoneGame.spec.js",
     "test5": "./node_modules/.bin/mocha --require babel-core/register test/ThePayment.spec.js",
     "test6": "./node_modules/.bin/mocha --require babel-core/register test/MakeOne.spec.js",
+    "test7": "./node_modules/.bin/mocha --require babel-core/register test/BuddySystem.spec.js",
     "start1": "babel-node runner/macthingBraceRunner.js",
     "start2": "babel-node runner/countRunner.js",
     "start3": "babel-node runner/binRunner.js",
     "start4": "babel-node runner/stoneRunner.js",
     "start5": "babel-node runner/paymentRunner.js",
-    "start6": "babel-node runner/makeOneRunner.js"
+    "start6": "babel-node runner/makeOneRunner.js",
+    "start7": "babel-node runner/buddyRunner.js"
   },
   "keywords": [],
   "author": "",
