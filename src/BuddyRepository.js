@@ -3,7 +3,7 @@
 const remainArr = [];
 class BuddyRepository {
     constructor () {
-        this.arr = [256, 256, 256, 256];
+        this.arr = [{'256kb' : {memory :256, id: ''}}, {'256kb' : {memory :256, id: ''}}, {'256kb' : {memory :256, id: ''}}, {'256kb' : {memory :256, id: ''}}];
         this.id = 0;
     }
 
